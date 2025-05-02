@@ -61,7 +61,7 @@ public class GameMethod {
 		for (int i = 0; i < Config.GAME_LENGTH; i++) {
 			System.out.println();
 			System.out.println("상세 조회를 원하는 고양이의 번호를 입력해주세요. (나가기 q)");
-
+			System.out.print("> ");
 			String input = Config.scanner.nextLine();
 
 			if (input.equals("q")) {
@@ -112,6 +112,7 @@ public class GameMethod {
 		System.out.println("성별 : " + this.b[num - 1].gender);
 		System.out.println("나이 : " + this.b[num - 1].age);
 		System.out.println("민첩성 : " + this.b[num - 1].speed);
+		System.out.println("특징 : " + this.b[num - 1].like);
 	}
 
 	/***

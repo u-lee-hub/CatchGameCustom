@@ -26,6 +26,7 @@ public class GameManager {
 	 * 5. 결과 출력
 	 */
 	public void run() {
+		System.out.println("===Catch Cat Game Version2 START!===");
 		System.out.println("지금 폴리텍에 키우던 10마리의 고양이가 실종되었습니다.");
 		System.out.println("여러분의 도움이 필요해요.. 힘을 합쳐 찾아주세요!!");
 		System.out.println("(고양이의 민첩성에 따라 잡을 확률이 낮아집니다.)");
@@ -43,6 +44,7 @@ public class GameManager {
 			System.out.println("============menu============");
 			System.out.println("1.탐색 및 잡기 | 2.고양이 지명수배 (전체) | 3.내가 잡은 고양이들 | 종료(q)");
 			System.out.println("번호를 선택해주세요.");
+			System.out.print("> ");
 			String input = Config.scanner.nextLine();
 			
 			if(input.equals("q")) {
